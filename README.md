@@ -7,6 +7,8 @@ This repository contains a API Flask app to upload a CSV file to a table databas
 
 Please, red the <em>requirements.txt</em> for more information about the libraries.
 
+For this exercise we'll use a local PostgreSQL conection in Docker. The image use could find in my docker hub: [jeanpierec](https://hub.docker.com/u/jeanpierec).
+
 ## Section 01: API
 
 We have this files:
