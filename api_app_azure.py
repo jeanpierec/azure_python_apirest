@@ -8,7 +8,6 @@ import pyodbc
 app = Flask(__name__)
 
 def get_db_connection():
-    # Configura tu cadena de conexión JDBC para Azure SQL Database
     connection_string = (
         "Driver={ODBC Driver 17 for SQL Server};"
         "Server=dataglobanttest.database.windows.net,1433;"
