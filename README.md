@@ -58,8 +58,19 @@ To run the test, run de <em>api_app.py</em> and then, run the test script:
 
 We use Azure for deployment the App. See more in the PDF <em>"deployment_azure.pdf"</em> for more details.
 
+> For this example we use api_app_azure.py with SQL Azure Server parameters
+
 1. Create a Docker image (See <em>Dockerfile</em>) and upload the image to DockerHub.
 2. In Azure, create a basic SQL Server (See more in the PDF <em>"deployment_azure.pdf"</em>).
 3. In Azure, create a Kubernetes node (See more in the PDF <em>"deployment_azure.pdf"</em>).
 4. Create a deployment file. In this case we use <em>kubectl.yaml</em>.
 5. Deploying with Kubernetes on AKS (Azure Kubernetes Service). See more in the PDF <em>"deployment_azure.pdf"</em>.
+
+### Conclusions
+
+We could configure secret credentials for DB conexion for example.
+
+
+#### Notes
+
+In <em>evidences</em> folder you can see screenshots for all executions.
