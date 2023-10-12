@@ -1,7 +1,7 @@
 FROM python:3.10
 
 # Install the required Python libraries
-RUN pip install Flask psycopg2 pandas
+RUN pip install Flask psycopg2 pandas pyodbc
 
 # Copy the Python code to the Docker image
 COPY . /usr/src/app
@@ -13,4 +13,4 @@ WORKDIR /usr/src/app
 EXPOSE 5000
 
 # Start the Flask application
-CMD ["python", "flask_1.py"]
+CMD ["python", "api_app_azure.py"]

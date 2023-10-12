@@ -53,3 +53,13 @@ I creadted unit tests for the principal function in the API: Upload the CSV file
 To run the test, run de <em>api_app.py</em> and then, run the test script:
 
 > python -m unittest test_api
+
+## Bonus: Deployment in Azure
+
+We use Azure for deployment the App. See more in the PDF <em>"deployment_azure.pdf"</em> for more details.
+
+1. Create a Docker image (See <em>Dockerfile</em>) and upload the image to DockerHub.
+2. In Azure, create a basic SQL Server (See more in the PDF <em>"deployment_azure.pdf"</em>).
+3. In Azure, create a Kubernetes node (See more in the PDF <em>"deployment_azure.pdf"</em>).
+4. Create a deployment file. In this case we use <em>kubectl.yaml</em>.
+5. Deploying with Kubernetes on AKS (Azure Kubernetes Service). See more in the PDF <em>"deployment_azure.pdf"</em>.
