@@ -21,3 +21,11 @@ We have this files:
 For run the APP, first, we have to run <em>01_api_app.py</em> in a terminal instance:
 
 > python 01_api_app.py
+
+Now, you can upload all of each CSV in <em>data</em> folder. For this case, in another terminal we'll run:
+
+> python upload_hired_employees.py
+> python upload_deparments.py
+> python upload_jobs.py
+
+Now, you can use a DB explorer to cheack all tables.
