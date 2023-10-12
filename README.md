@@ -45,3 +45,11 @@ To see the result, you can execute the python file in a terminal (run de <em>api
 To see the result, you can execute the python file in a terminal (run de <em>api_app.py</em> before):
 
 > python 02_requirement_2.py
+
+## Bonus: Unit tests
+
+I creadted unit tests for the principal function in the API: Upload the CSV file to DB. So, we can find in the python scripts <em>test_api.py</em> three test for the three function to upload CSV file for each table.
+
+To run the test, run de <em>api_app.py</em> and then, run the test script:
+
+> python -m unittest test_api
