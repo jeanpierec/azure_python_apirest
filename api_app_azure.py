@@ -14,7 +14,7 @@ def get_db_connection():
         "Server=dataglobanttest.database.windows.net,1433;"
         "Database=globant;"
         "User=airflow@dataglobanttest;"
-        "Password=Gnu$980103;"
+        "Password={secret_key};"
         "Encrypt=yes;"
         "TrustServerCertificate=no;"
         "Connection Timeout=30;"
