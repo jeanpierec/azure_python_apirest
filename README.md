@@ -29,3 +29,19 @@ Now, you can upload all of each CSV in <em>data</em> folder. For this case, in a
 > python upload_jobs.py
 
 Now, you can use a DB explorer to cheack all tables.
+
+## Section 02: Requirements
+
+For every requirements I created a python script:
+
+#### Number of employees hired for each job and department in 2021 divided by quarter. The table must be ordered alphabetically by department and job.
+
+To see the result, you can execute the python file in a terminal (run de <em>api_app.py</em> before):
+
+> python 02_requirement_1.py
+
+#### List of ids, name and number of employees hired of each department that hired more employees than the mean of employees hired in 2021 for all the departments, ordered by the number of employees hired (descending).
+
+To see the result, you can execute the python file in a terminal (run de <em>api_app.py</em> before):
+
+> python 02_requirement_2.py
